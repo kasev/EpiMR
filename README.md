@@ -1,8 +1,9 @@
-#  Repository title
+#  Computational text analysis of Ancient Greek Inscriptions
 
 ---
 ## Authors
 * Vojtěch Kaše
+* Tomáš Glomb
 
 
 ## License

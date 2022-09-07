@@ -1,14 +1,15 @@
-virtualenv
 jupyter
 ipykernel
 
 pandas
 nltk
 gensim
-networkx
 scikit-learn
+geopandas
+pyarrow
 
 matplotlib
 seaborn
 
 sddk
+tempun
