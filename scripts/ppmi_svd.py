@@ -39,7 +39,7 @@ def svd_reduction(cooc_matrix, n_components=150, random_state=1, n_iter=10):
     return svd_matrix
 
 def from_bows_to_embeddings(corpus_bows, dct, svd_dims=150, vocabulary=None):
-    term_doc_mat = corpus2csc(corpus_bows)
+    term_doc_mat = corpus2csc(corpus_bows, num_terms=len(dct))
     if vocabulary==None:
         vocabulary = list(dct.values())
     else:
